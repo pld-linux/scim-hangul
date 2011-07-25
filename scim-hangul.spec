@@ -1,7 +1,7 @@
 Summary:	Hangul Input Method Engine for SCIM
 Name:		scim-hangul
 Version:	0.3.2
-Release:	0.1
+Release:	1
 License:	GPL v3
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.gz
