@@ -2,7 +2,7 @@ Summary:	Hangul Input Method Engine for SCIM
 Summary(pl.UTF-8):	Silnik metody wprowadzania znaków Hangul dla SCIM-a
 Name:		scim-hangul
 Version:	0.4.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.gz
