@@ -7,6 +7,7 @@ License:	GPL v2+
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.gz
 # Source0-md5:	adc4b79508d0cbc639f1146ae124df58
+Patch0:		%{name}-gcc4.patch
 URL:		http://www.scim-im.org/
 BuildRequires:	gettext-devel >= 0.18.1
 BuildRequires:	scim-devel >= 1.2.0
@@ -26,6 +27,7 @@ znaków koreańskich (Hangul).
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
